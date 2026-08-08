@@ -1,4 +1,5 @@
 python-dotenv
+setuptools
 numpy
 pandas
 seaborn
@@ -10,3 +11,4 @@ xgboost
 scipy 
 flask
 dill
+-e .
