@@ -29,15 +29,5 @@ class NetworkSecurityException(Exception):
         return self.error_message
 
 
-if __name__=="__main__":
-    try:
-      logger.info("the logging is working")
-      a = 10
-      b = 0
-      result = a / b
 
-    except Exception as e:
-     
-     raise NetworkSecurityException(e, sys)
-        
         

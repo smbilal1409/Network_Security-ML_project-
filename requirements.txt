@@ -11,4 +11,8 @@ xgboost
 scipy 
 flask
 dill
--e .
+pymongo
+pymongo[srv]==3.12
+certifi
+
+# -e .
