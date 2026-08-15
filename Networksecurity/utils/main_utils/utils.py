@@ -59,7 +59,7 @@ def load_object(file_path: str, ) -> object:
             print(file_obj)
             return pickle.load(file_obj)
     except Exception as e:
-        raise NetworkSecurityException(e, sys) from e
+        raise NetworkSecurityException(e, sys) 
     
 def load_numpy_array_data(file_path: str) -> np.array:
     """
@@ -71,7 +71,7 @@ def load_numpy_array_data(file_path: str) -> np.array:
         with open(file_path, "rb") as file_obj:
             return np.load(file_obj)
     except Exception as e:
-        raise NetworkSecurityException(e, sys) from e
+        raise NetworkSecurityException(e, sys) 
     
 
 
